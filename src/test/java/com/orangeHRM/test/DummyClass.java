@@ -1,4 +1,4 @@
-package com.orangehrm.pages;
+package com.orangeHRM.test;
 
 import org.testng.annotations.Test;
 

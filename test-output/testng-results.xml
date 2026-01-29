@@ -1,25 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-22T08:57:47 UTC" name="Default suite" finished-at="2026-01-22T08:57:52 UTC" duration-ms="5021">
+  <suite started-at="2026-01-29T10:29:18 UTC" name="OrangeHRMSuite" finished-at="2026-01-29T10:30:07 UTC" duration-ms="49038">
     <groups>
     </groups>
-    <test started-at="2026-01-22T08:57:47 UTC" name="Default test" finished-at="2026-01-22T08:57:52 UTC" duration-ms="5021">
-      <class name="com.orangehrm.pages.DummyClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.pages.DummyClass@702657cc]" started-at="2026-01-22T08:57:47 UTC" name="setup" finished-at="2026-01-22T08:57:52 UTC" duration-ms="4751" status="PASS">
+    <test started-at="2026-01-29T10:29:18 UTC" name="OrangeHRMTest" finished-at="2026-01-29T10:29:44 UTC" duration-ms="25670">
+      <class name="com.orangeHRM.test.DummyClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRM.test.DummyClass@489115ef]" started-at="2026-01-29T10:29:18 UTC" name="setup" finished-at="2026-01-29T10:29:32 UTC" duration-ms="14050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangehrm.pages.DummyClass@702657cc]" started-at="2026-01-22T08:57:52 UTC" name="verifyPageTitle" finished-at="2026-01-22T08:57:52 UTC" duration-ms="32" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass@489115ef]" started-at="2026-01-29T10:29:32 UTC" name="verifyPageTitle" finished-at="2026-01-29T10:29:32 UTC" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.pages.DummyClass@702657cc]" started-at="2026-01-22T08:57:52 UTC" name="tearDown" finished-at="2026-01-22T08:57:52 UTC" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass@489115ef]" started-at="2026-01-29T10:29:32 UTC" name="tearDown" finished-at="2026-01-29T10:29:33 UTC" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.pages.DummyClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.orangeHRM.test.DummyClass -->
+      <class name="com.orangeHRM.test.DummyClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRM.test.DummyClass2@79079097]" started-at="2026-01-29T10:29:33 UTC" name="setup" finished-at="2026-01-29T10:29:43 UTC" duration-ms="10691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass2@79079097]" started-at="2026-01-29T10:29:43 UTC" name="verifyPageTitle" finished-at="2026-01-29T10:29:43 UTC" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed .Title not matching]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed .Title not matching
+at com.orangeHRM.test.DummyClass2.verifyPageTitle(DummyClass2.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass2@79079097]" started-at="2026-01-29T10:29:43 UTC" name="tearDown" finished-at="2026-01-29T10:29:44 UTC" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.test.DummyClass2 -->
+    </test> <!-- OrangeHRMTest -->
+    <test started-at="2026-01-29T10:29:44 UTC" name="OrangeHRMTest2" finished-at="2026-01-29T10:30:07 UTC" duration-ms="23333">
+      <class name="com.orangeHRM.test.DummyClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRM.test.DummyClass@13b6aecc]" started-at="2026-01-29T10:29:44 UTC" name="setup" finished-at="2026-01-29T10:29:55 UTC" duration-ms="11546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass@13b6aecc]" started-at="2026-01-29T10:29:55 UTC" name="verifyPageTitle" finished-at="2026-01-29T10:29:55 UTC" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass@13b6aecc]" started-at="2026-01-29T10:29:55 UTC" name="tearDown" finished-at="2026-01-29T10:29:56 UTC" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.test.DummyClass -->
+      <class name="com.orangeHRM.test.DummyClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangeHRM.test.DummyClass2@158a8276]" started-at="2026-01-29T10:29:56 UTC" name="setup" finished-at="2026-01-29T10:30:07 UTC" duration-ms="11111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass2@158a8276]" started-at="2026-01-29T10:30:07 UTC" name="verifyPageTitle" finished-at="2026-01-29T10:30:07 UTC" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed .Title not matching]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed .Title not matching
+at com.orangeHRM.test.DummyClass2.verifyPageTitle(DummyClass2.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass2@158a8276]" started-at="2026-01-29T10:30:07 UTC" name="tearDown" finished-at="2026-01-29T10:30:07 UTC" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.test.DummyClass2 -->
+    </test> <!-- OrangeHRMTest2 -->
+    <test started-at="2026-01-29T10:30:07 UTC" name="LoginPageTest" finished-at="2026-01-29T10:30:07 UTC" duration-ms="2">
+      <class name="com.orangeHRM.test.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.orangeHRM.test.LoginPageTest@4e50c791]" started-at="2026-01-29T10:29:18 UTC" name="loadConfig" finished-at="2026-01-29T10:29:18 UTC" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+      </class> <!-- com.orangeHRM.test.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+  </suite> <!-- OrangeHRMSuite -->
 </testng-results>
