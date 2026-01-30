@@ -1,0 +1,71 @@
+2026-01-30 07:31:43 [main] INFO  BaseClass - config.Properties file loaded
+2026-01-30 07:31:47 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 07:31:52 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 07:31:52 [main] TRACE BaseClass - This is trace message 
+2026-01-30 07:31:52 [main] DEBUG BaseClass - This is debug message
+2026-01-30 07:31:52 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 07:31:52 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 07:31:52 [main] INFO  ActionDriver - Entered text : Admin
+2026-01-30 07:31:52 [main] INFO  ActionDriver - Entered text : admin1231
+2026-01-30 07:31:55 [main] INFO  ActionDriver - Clicked an element.
+2026-01-30 07:31:56 [main] INFO  BaseClass - WebDriver instance is closed
+2026-01-30 07:31:57 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 07:32:01 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 07:32:01 [main] TRACE BaseClass - This is trace message 
+2026-01-30 07:32:01 [main] DEBUG BaseClass - This is debug message
+2026-01-30 07:32:01 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 07:32:01 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 07:32:01 [main] INFO  ActionDriver - Entered text : Admin
+2026-01-30 07:32:01 [main] INFO  ActionDriver - Entered text : admin123
+2026-01-30 07:32:03 [main] INFO  ActionDriver - Clicked an element.
+2026-01-30 07:32:04 [main] INFO  ActionDriver - Clicked an element.
+2026-01-30 07:32:06 [main] INFO  ActionDriver - Clicked an element.
+2026-01-30 07:32:11 [main] INFO  BaseClass - WebDriver instance is closed
+2026-01-30 09:41:13 [main] INFO  BaseClass - config.Properties file loaded
+2026-01-30 09:41:16 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 09:41:21 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 09:41:21 [main] TRACE BaseClass - This is trace message 
+2026-01-30 09:41:21 [main] DEBUG BaseClass - This is debug message
+2026-01-30 09:41:21 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 09:41:21 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 09:41:21 [main] INFO  ActionDriver - Entered text on : Element with name: usernameAdmin
+2026-01-30 09:41:21 [main] INFO  ActionDriver - Entered text on : Element with name: passwordadmin1231
+2026-01-30 09:41:21 [main] INFO  ActionDriver - Clicked an element.Element located using: By.xpath: //button[text()=' Login ']
+2026-01-30 09:41:23 [main] INFO  BaseClass - WebDriver instance is closed
+2026-01-30 09:41:24 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 09:41:29 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 09:41:29 [main] TRACE BaseClass - This is trace message 
+2026-01-30 09:41:29 [main] DEBUG BaseClass - This is debug message
+2026-01-30 09:41:29 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 09:41:29 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 09:41:29 [main] INFO  ActionDriver - Entered text on : Element with name: usernameAdmin
+2026-01-30 09:41:29 [main] INFO  ActionDriver - Entered text on : Element with name: passwordadmin123
+2026-01-30 09:41:31 [main] INFO  ActionDriver - Clicked an element.Element located using: By.xpath: //button[text()=' Login ']
+2026-01-30 09:41:33 [main] INFO  ActionDriver - Element is displayed :Element located using: By.xpath: //span[text()='Admin']
+2026-01-30 09:41:33 [main] INFO  ActionDriver - Clicked an element.Element located using: By.className: oxd-userdropdown-name
+2026-01-30 09:41:36 [main] INFO  ActionDriver - Clicked an element.Element with text: Logout
+2026-01-30 09:41:41 [main] INFO  BaseClass - WebDriver instance is closed
+2026-01-30 09:44:54 [main] INFO  BaseClass - config.Properties file loaded
+2026-01-30 09:44:56 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 09:45:02 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 09:45:02 [main] TRACE BaseClass - This is trace message 
+2026-01-30 09:45:02 [main] DEBUG BaseClass - This is debug message
+2026-01-30 09:45:02 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 09:45:02 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 09:45:02 [main] INFO  ActionDriver - Entered text on: Element with name: username--> Admin
+2026-01-30 09:45:02 [main] INFO  ActionDriver - Entered text on: Element with name: password--> admin1231
+2026-01-30 09:45:02 [main] INFO  ActionDriver - Clicked an element.Element located using: By.xpath: //button[text()=' Login ']
+2026-01-30 09:45:12 [main] INFO  BaseClass - WebDriver instance is closed
+2026-01-30 09:45:13 [main] INFO  BaseClass - Chrome instance is initialized
+2026-01-30 09:45:18 [main] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-01-30 09:45:18 [main] TRACE BaseClass - This is trace message 
+2026-01-30 09:45:18 [main] DEBUG BaseClass - This is debug message
+2026-01-30 09:45:18 [main] INFO  ActionDriver - WebDriver Instance created
+2026-01-30 09:45:18 [main] INFO  BaseClass - Actiondriver instance created.
+2026-01-30 09:45:19 [main] INFO  ActionDriver - Entered text on: Element with name: username--> Admin
+2026-01-30 09:45:19 [main] INFO  ActionDriver - Entered text on: Element with name: password--> admin123
+2026-01-30 09:45:22 [main] INFO  ActionDriver - Clicked an element.Element located using: By.xpath: //button[text()=' Login ']
+2026-01-30 09:45:24 [main] INFO  ActionDriver - Element is displayed :Element located using: By.xpath: //span[text()='Admin']
+2026-01-30 09:45:24 [main] INFO  ActionDriver - Clicked an element.Element located using: By.className: oxd-userdropdown-name
+2026-01-30 09:45:28 [main] INFO  ActionDriver - Clicked an element.Element with text: Logout
+2026-01-30 09:45:34 [main] INFO  BaseClass - WebDriver instance is closed

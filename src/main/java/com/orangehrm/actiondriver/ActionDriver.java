@@ -16,7 +16,7 @@ public class ActionDriver {
 
 	private WebDriver driver;
 	private WebDriverWait wait;
-	
+
 	public static final Logger logger = BaseClass.logger;
 
 	public ActionDriver(WebDriver driver) {
@@ -47,23 +47,24 @@ public class ActionDriver {
 
 	// Method to click an element
 	public void click(By by) {
+		String elementDescription = getElementDescription(by);
 		try {
 			waitforElementToBeClickable(by);
 			driver.findElement(by).click();
-			logger.info("Clicked an element.");
+			logger.info("Clicked an element."+elementDescription);
 		} catch (Exception e) {
 			logger.error("Unable to click element : " + e.getMessage());
 		}
 	}
 
-	// method to enter text in input field 
+	// method to enter text in input field
 	public void enterText(By by, String value) {
 		try {
 			waitforElementToBeVisible(by);
 			WebElement element = driver.findElement(by);
 			element.clear();
 			element.sendKeys(value);
-			logger.info("Entered text : " +value);
+			logger.info("Entered text on "+getElementDescription(by) +"--> "+ value);
 		} catch (Exception e) {
 			logger.error("Unable to enter the value : " + e.getMessage());
 		}
@@ -78,17 +79,17 @@ public class ActionDriver {
 		}
 		return "";
 	}
-	
+
 	// Method to compare text
 	public boolean compareText(By by, String expectedText) {
 		try {
 			waitforElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
 			if (expectedText.equals(actualText)) {
-				logger.info("Text are matching :" + actualText + "equals" + expectedText);
+				logger.info("Text are matching :" + actualText + " equals " + expectedText);
 				return true;
 			} else {
-				logger.error("Text are not matching :" + actualText + "equals" + expectedText);
+				logger.error("Text are not matching :" + actualText + " , " + expectedText);
 				return false;
 			}
 		} catch (Exception e) {
@@ -96,39 +97,94 @@ public class ActionDriver {
 			return false;
 		}
 	}
-	
-	//Method to check if an element is displayed
+
+	// Method to check if an element is displayed
 	public boolean isDisplayed(By by) {
 		try {
 			waitforElementToBeVisible(by);
-			return driver.findElement(by).isDisplayed();	 
+			logger.info("Element is displayed"+getElementDescription(by));
+			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
 			logger.error("Element is not displayed : " + e.getMessage());
-			return false;	
+			return false;
 		}
 	}
-	
+
 	// Scroll to an element -- Added a semicolon ; at the end of the script string
-		public void scrollToElement(By by) {
-			try {
-				//applyBorder(by,"green");
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				WebElement element = driver.findElement(by);
-				js.executeScript("arguments[0].scrollIntoView(true);", element);
-			} catch (Exception e) {
-				//applyBorder(by,"red");
-				logger.error("Unable to locate element:" + e.getMessage());
-			}
+	public void scrollToElement(By by) {
+		try {
+			// applyBorder(by,"green");
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			WebElement element = driver.findElement(by);
+			js.executeScript("arguments[0].scrollIntoView(true);", element);
+		} catch (Exception e) {
+			// applyBorder(by,"red");
+			logger.error("Unable to locate element:" + e.getMessage());
 		}
-	
+	}
+
 	// Wait for the page to load
-		public void waitForPageLoad(int timeOutInSec) {
-			try {
-				wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> ((JavascriptExecutor) WebDriver)
-						.executeScript("return document.readyState").equals("complete"));
-				logger.info("Page loaded successfully.");
-			} catch (Exception e) {
-			}
+	public void waitForPageLoad(int timeOutInSec) {
+		try {
+			wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> ((JavascriptExecutor) WebDriver)
+					.executeScript("return document.readyState").equals("complete"));
+			logger.info("Page loaded successfully.");
+		} catch (Exception e) {
+		}
+	}
+
+	// Method to get the description of an element using By locator
+	public String getElementDescription(By locator) {
+
+		// Check for null driver or locator to avoid NullPointerException
+		if (driver == null) {
+			return "Driver is not initialized.";
+		}
+		if (locator == null) {
+			return "Locator is null.";
 		}
 
+		try {
+			// Find the element using the locator
+			WebElement element = driver.findElement(locator);
+
+			String name = element.getDomProperty("name");
+			String id = element.getDomProperty("id");
+			String placeholder = element.getDomProperty("placeholder");
+			String type = element.getDomProperty("type");
+			String className = element.getDomProperty("class");
+			String text = element.getDomProperty("text");
+			
+			// Return a description based on available attributes
+			if (isNotEmpty(name)) {
+				return "Element with name: " + name;
+			} else if (isNotEmpty(id)) {
+				return "Element with ID: " + id;
+			} else if (isNotEmpty(text)) {
+				return "Element with text: " + truncate(text, 50);
+			} else if (isNotEmpty(className)) {
+				return "Element with class: " + className;
+			} else if (isNotEmpty(placeholder)) {
+				return "Element with placeholder: " + placeholder;
+			} else {
+				return "Element located using: " + locator.toString();
+			}
+		} catch (Exception e) {
+			logger.error("Unable to describe element due to error: " + e.getMessage());
+		}
+		return "Unable to describe element due to error: " ;
+	}
+	
+	// Utility method to truncate long strings
+	private String truncate(String value, int maxLength) {
+		if (value == null || value.length() <= maxLength) {
+			return value;
+		}
+		return value.substring(0, maxLength) + "...";
+	}
+
+	// Utility method to check if a string is not null or empty
+	private boolean isNotEmpty(String value) {
+		return value != null && !value.isEmpty();
+	}
 }
