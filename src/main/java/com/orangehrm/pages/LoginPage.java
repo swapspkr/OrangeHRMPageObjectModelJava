@@ -18,7 +18,8 @@ public class LoginPage {
 
 	
 	public LoginPage(WebDriver driver) {
-		this.actionDriver = new ActionDriver(driver);
+		//this.actionDriver = new ActionDriver(driver);
+		this.actionDriver = BaseClass.getActionDriver();
 	}
 	// Method to perform login
 	public void login(String userName, String password) {

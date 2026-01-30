@@ -8,7 +8,8 @@ import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
 
-public class LoginPageTest extends BaseClass {
+public class HomePageTest extends BaseClass {
+
 	private LoginPage loginPage;
 	private HomePage homePage;
 
@@ -19,21 +20,8 @@ public class LoginPageTest extends BaseClass {
 	}
 
 	@Test
-	public void verifyValidLoginTest() {
-
+	public void verifyOrangeHRMLogo() {
 		loginPage.login("Admin", "admin123");
-		Assert.assertTrue(homePage.isAdminTabVisible(),"Admin tab should be visible after successfull login ");
-		homePage.logout();
-		staticWait(5);
-	}
-	
-	@Test
-	public void verifyInValidLoginTest() {
-
-		loginPage.login("Admin", "admin1231");
-		String errorMsg = " Invalid Credentials1"; 
-		Assert.assertTrue(loginPage.verifyErrorMessage(errorMsg));
-		homePage.logout();
-		staticWait(5);
+		Assert.assertTrue(homePage.verifyOrangeHRMlogo(), "Logo is not visible");
 	}
 }
