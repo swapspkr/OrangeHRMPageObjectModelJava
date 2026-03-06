@@ -7,3 +7,106 @@
 2026-01-30 09:45:02 [main] ERROR BaseClass - This is Error message
 2026-01-30 09:45:10 [main] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
 2026-01-30 09:45:18 [main] ERROR BaseClass - This is Error message
+2026-01-30 11:19:54 [TestNG-test-LoginPageTest-2] ERROR BaseClass - This is Error message
+2026-01-30 11:19:54 [TestNG-test-LoginPageTest-3] ERROR BaseClass - This is Error message
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-4] ERROR BaseClass - This is Error message
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Unable to enter the value : Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Unable to enter the value : Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Unable to describe element due to error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Unable to click element : Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Unable to describe element due to error: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:56 [TestNG-test-LoginPageTest-2] ERROR ActionDriver - Element is not displayed : Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5096357419ca307e9baac71e581edc0c, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.98, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50054}, goog:processID: 4836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50054/devtoo..., se:cdpVersion: 144.0.7559.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5096357419ca307e9baac71e581edc0c
+2026-01-30 11:19:57 [TestNG-test-LoginPageTest-1] ERROR BaseClass - This is Error message
+2026-01-30 11:44:53 [TestNG-test-LoginPageTest-3] ERROR BaseClass - This is Error message
+2026-01-30 11:44:54 [TestNG-test-LoginPageTest-1] ERROR BaseClass - This is Error message
+2026-01-30 11:44:54 [TestNG-test-LoginPageTest-2] ERROR BaseClass - This is Error message
+2026-01-30 11:44:54 [TestNG-test-LoginPageTest-4] ERROR BaseClass - This is Error message
+2026-01-30 11:44:56 [TestNG-test-LoginPageTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-01-30 11:45:02 [TestNG-test-LoginPageTest-1] ERROR BaseClass - This is Error message
+2026-01-30 11:51:41 [TestNG-test-LoginPageTest-2] ERROR BaseClass - This is Error message
+2026-01-30 11:51:41 [TestNG-test-LoginPageTest-1] ERROR BaseClass - This is Error message
+2026-01-30 11:51:41 [TestNG-test-LoginPageTest-3] ERROR BaseClass - This is Error message
+2026-01-30 11:51:42 [TestNG-test-LoginPageTest-4] ERROR BaseClass - This is Error message
+2026-01-30 11:51:44 [TestNG-test-LoginPageTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-01-30 11:51:49 [TestNG-test-LoginPageTest-1] ERROR BaseClass - This is Error message
+2026-01-30 12:32:10 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is Error message
+2026-01-30 12:32:10 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-01-30 12:32:10 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-01-30 12:32:11 [TestNG-test-OrangeHRMTest-5] ERROR BaseClass - This is Error message
+2026-01-30 12:32:16 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-01-30 12:32:19 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-04 12:18:37 [main] ERROR BaseClass - This is Error message
+2026-03-04 12:18:40 [main] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-04 12:18:48 [main] ERROR BaseClass - This is Error message
+2026-03-04 18:02:44 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-04 18:02:44 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-04 18:02:44 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is Error message
+2026-03-04 18:02:45 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-04 18:02:47 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-04 18:02:56 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-05 06:08:42 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-05 06:08:42 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is Error message
+2026-03-05 06:08:42 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-05 06:08:42 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-05 06:08:55 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-05 06:09:03 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:01:33 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-06 08:01:33 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:01:33 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:01:37 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-06 08:01:41 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:01:43 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:55:10 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:55:11 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-06 08:55:11 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:55:14 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-06 08:55:17 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:55:21 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:58:53 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 08:58:53 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:58:54 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-06 08:58:59 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-06 08:59:02 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 08:59:12 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 09:39:29 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 09:39:32 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 09:39:33 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-06 09:39:42 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-06 09:39:43 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 09:39:52 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message

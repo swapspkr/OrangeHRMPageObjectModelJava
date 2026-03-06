@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="OrangeHRMSuite">
+<suite name="OrangeHRMSuite" parallel="classes" thread-count="3">
 <!--	<test name="OrangeHRMTest">
 		<classes>
 			<class name="com.orangeHRM.test.DummyClass"></class>
@@ -8,10 +8,12 @@
 		
 	</test>-->
 	
-	<test name="LoginPageTest">
+	<test name="OrangeHRMTest">
 		<classes>
 			<class name="com.orangeHRM.test.LoginPageTest"></class>		
-			<!-- <class name="com.orangeHRM.test.HomePageTest"></class> -->
+			<class name="com.orangeHRM.test.HomePageTest"></class> 
+			<class name="com.orangeHRM.test.DummyClass"></class>
+			<class name="com.orangeHRM.test.DummyClass2"></class>
 		</classes>
 		
 	</test>

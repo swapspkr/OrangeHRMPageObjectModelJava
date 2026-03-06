@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.ExtentManager;
 
 public class ActionDriver {
 
@@ -31,7 +32,8 @@ public class ActionDriver {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(by));
 		} catch (Exception e) {
-			System.out.println("Element is not clickable : " + e.getMessage());
+			logger.error("Element is not clickable  : " + e.getMessage());
+			//System.out.println("Element is not clickable : " + e.getMessage());
 		}
 	}
 
@@ -41,7 +43,8 @@ public class ActionDriver {
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		} catch (Exception e) {
-			System.out.println("Element not visible: " + e.getMessage());
+			//System.out.println("Element not visible: " + e.getMessage());
+			logger.error("Element is not visible  : " + e.getMessage());
 		}
 	}
 
@@ -51,8 +54,10 @@ public class ActionDriver {
 		try {
 			waitforElementToBeClickable(by);
 			driver.findElement(by).click();
+			ExtentManager.logStep("Clicked an element."+elementDescription);
 			logger.info("Clicked an element."+elementDescription);
 		} catch (Exception e) {
+			ExtentManager.logFailure(BaseClass.getDriver(), "Unable to click element :", elementDescription+"_unable to click.");
 			logger.error("Unable to click element : " + e.getMessage());
 		}
 	}
@@ -87,9 +92,11 @@ public class ActionDriver {
 			String actualText = driver.findElement(by).getText();
 			if (expectedText.equals(actualText)) {
 				logger.info("Text are matching :" + actualText + " equals " + expectedText);
+				ExtentManager.logStepWithScreenShot(BaseClass.getDriver(), "Text verified successfully!", actualText+" Equals "+expectedText);
 				return true;
 			} else {
 				logger.error("Text are not matching :" + actualText + " , " + expectedText);
+				ExtentManager.logFailure(BaseClass.getDriver(), "Text comparision failed!", actualText+" Not Equals "+expectedText);
 				return false;
 			}
 		} catch (Exception e) {
@@ -103,9 +110,12 @@ public class ActionDriver {
 		try {
 			waitforElementToBeVisible(by);
 			logger.info("Element is displayed"+getElementDescription(by));
+			ExtentManager.logStep("Element is displayed: "+getElementDescription(by));
+			ExtentManager.logStepWithScreenShot(BaseClass.getDriver(), "Element is displayed !", "Element is displayed:"+getElementDescription(by));
 			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
-			logger.error("Element is not displayed : " + e.getMessage());
+			logger.error("Element is not displayed : " +e.getMessage());
+			ExtentManager.logFailure(BaseClass.getDriver(),"Element not displayed: ","Element not displayed:"+getElementDescription(by));
 			return false;
 		}
 	}
@@ -130,6 +140,7 @@ public class ActionDriver {
 					.executeScript("return document.readyState").equals("complete"));
 			logger.info("Page loaded successfully.");
 		} catch (Exception e) {
+			logger.error("Page not loaded  : " + e.getMessage());
 		}
 	}
 
@@ -148,12 +159,12 @@ public class ActionDriver {
 			// Find the element using the locator
 			WebElement element = driver.findElement(locator);
 
-			String name = element.getDomProperty("name");
-			String id = element.getDomProperty("id");
-			String placeholder = element.getDomProperty("placeholder");
-			String type = element.getDomProperty("type");
-			String className = element.getDomProperty("class");
-			String text = element.getDomProperty("text");
+			String name = element.getDomAttribute("name");
+			String id = element.getDomAttribute("id");
+			String placeholder = element.getDomAttribute("placeholder");
+			String type = element.getDomAttribute("type");
+			String className = element.getDomAttribute("class");
+			String text = element.getDomAttribute("text");
 			
 			// Return a description based on available attributes
 			if (isNotEmpty(name)) {
