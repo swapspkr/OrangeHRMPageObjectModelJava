@@ -96,7 +96,7 @@ public class ActionDriver {
 				return true;
 			} else {
 				logger.error("Text are not matching :" + actualText + " , " + expectedText);
-				ExtentManager.logFailure(BaseClass.getDriver(), "Text comparision failed!", actualText+" Not Equals "+expectedText);
+				ExtentManager.logFailure(BaseClass.getDriver(), "Text Comparison failed!", actualText+" Not Equals "+expectedText);
 				return false;
 			}
 		} catch (Exception e) {

@@ -10,7 +10,7 @@ public class DummyClass extends BaseClass{
 
 	@Test
 	public void verifyPageTitle() {
-		ExtentManager.startTest("Dummy Test1");
+		//ExtentManager.startTest("Dummy Test1"); -- This has been implemented in TestListener
 		String actualTitle = getDriver().getTitle();
 		ExtentManager.logStep("Verify Page Title");
 		assert actualTitle.equals("OrangeHRM"):"Test Failed .Title not matching";

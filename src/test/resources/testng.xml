@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="OrangeHRMSuite" parallel="classes" thread-count="3">
-<!--	<test name="OrangeHRMTest">
+	<listeners>
+		<listener class-name="com.orangehrm.listener.TestListener"></listener>
+	</listeners>
+
+	<!--	<test name="OrangeHRMTest">
 		<classes>
 			<class name="com.orangeHRM.test.DummyClass"></class>
 			<class name="com.orangeHRM.test.DummyClass2"></class>

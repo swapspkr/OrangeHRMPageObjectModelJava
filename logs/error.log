@@ -110,3 +110,9 @@ Session ID: 5096357419ca307e9baac71e581edc0c
 2026-03-06 09:39:42 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
 2026-03-06 09:39:43 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
 2026-03-06 09:39:52 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 13:36:28 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 13:36:28 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-06 13:36:29 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-06 13:36:31 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-06 13:36:36 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-06 13:36:40 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message

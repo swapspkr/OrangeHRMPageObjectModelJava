@@ -43,7 +43,7 @@ public class BaseClass {
 		prop.load(fis);
 		logger.info("config.Properties file loaded");
 		//Start extent report
-		ExtentManager.getReporter();
+		//ExtentManager.getReporter(); -- This has been implemented in TestListener
 	}
 
 	// Initialize webdriver based on browser defined in config file
@@ -138,7 +138,8 @@ public class BaseClass {
 		logger.info("WebDriver instance is closed");
 		driver.remove();
 		actionDriver.remove();
-		ExtentManager.endTest(); // To flush the extent report
+		// To flush the extent report
+		//ExtentManager.endTest();  -- This has been implemented in TestListener
 	}
 
 	public void staticWait(int seconds) {
