@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
 
 public class LoginPageTest extends BaseClass {
@@ -19,10 +20,10 @@ public class LoginPageTest extends BaseClass {
 		homePage = new HomePage(getDriver());
 	}
 
-	@Test
-	public void verifyValidLoginTest() {
+	@Test(dataProvider="validLoginData",dataProviderClass=DataProviders.class)
+	public void verifyValidLoginTest(String username,String password) {
 		//ExtentManager.startTest("Valid Login Test"); -- This has been implemented in TestListener
-		loginPage.login("Admin", "admin123");
+		loginPage.login(username, password);
 		ExtentManager.logStep("Navigating to login page entering username and password");
 		ExtentManager.logStep("Verifying Admin tab is visible or not");
 		Assert.assertTrue(homePage.isAdminTabVisible(),"Admin tab should be visible after successfull login ");
@@ -32,10 +33,10 @@ public class LoginPageTest extends BaseClass {
 		staticWait(5);
 	}
 	
-	@Test
-	public void verifyInValidLoginTest() {
+	@Test(dataProvider="inValidLoginData",dataProviderClass=DataProviders.class)
+	public void verifyInValidLoginTest(String username,String password) {
 		//ExtentManager.startTest("Invalid Login Test"); -- This has been implemented in TestListener
-		loginPage.login("Admin", "admin1231");
+		loginPage.login(username,password);
 		ExtentManager.logStep("Navigating to login page entering username and password");	
 		String errorMsg = " Invalid Credentials1"; 
 		Assert.assertTrue(loginPage.verifyErrorMessage(errorMsg));
