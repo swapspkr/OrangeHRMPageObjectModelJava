@@ -116,3 +116,21 @@ Session ID: 5096357419ca307e9baac71e581edc0c
 2026-03-06 13:36:31 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
 2026-03-06 13:36:36 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
 2026-03-06 13:36:40 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:06:42 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-07 10:36:05 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message

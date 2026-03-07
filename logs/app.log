@@ -612,3 +612,780 @@
 2026-03-06 13:36:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
 2026-03-06 13:36:45 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
 2026-03-06 13:36:51 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:06:25 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-07 10:06:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:06:30 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:06:30 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:06:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-03-07 10:06:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:06:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin1231
+2026-03-07 10:06:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:06:45 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:06:46 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-07 10:06:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:06:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:06:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:06:53 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-07 10:06:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:06:57 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:06:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:06:58 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:06:58 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:07:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:07:04 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-07 10:07:11 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:07:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:07:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:07:15 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:07:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-07 10:07:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-07 10:07:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-07 10:07:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:35:47 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-07 10:35:51 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:35:51 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:35:51 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:35:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-07 10:35:59 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with name: username
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6838913bf563ef01e2a57d6e57b820, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.0C7F2B0D85009D7786B3DCD9618E3300.d.D4307510786D5057A16C69DCD169B282.e.2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61561}, goog:processID: 26644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6838913bf563ef01e2a57d6e57b820
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:26)
+	at com.orangeHRM.test.LoginPageTest.verifyInValidLoginTest(LoginPageTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:35:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:36:00 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with name: password
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6838913bf563ef01e2a57d6e57b820, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.0C7F2B0D85009D7786B3DCD9618E3300.d.D4307510786D5057A16C69DCD169B282.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61561}, goog:processID: 26644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6838913bf563ef01e2a57d6e57b820
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:27)
+	at com.orangeHRM.test.LoginPageTest.verifyInValidLoginTest(LoginPageTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-07 10:36:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin1231
+2026-03-07 10:36:02 [TestNG-test-OrangeHRMTest-2] WARN  ActionDriver - Failed to apply the border to an elementElement with name: username
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e7d541272ecf228bf8bf51ce040f9d5, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.681CFC83122A828502D6894BB78335F5.d.48B256077EF961FDD07B7A7865618265.e.2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61560}, goog:processID: 26976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61560/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e7d541272ecf228bf8bf51ce040f9d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:26)
+	at com.orangeHRM.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:02 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6838913bf563ef01e2a57d6e57b820, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.0C7F2B0D85009D7786B3DCD9618E3300.d.D4307510786D5057A16C69DCD169B282.e.7}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61561}, goog:processID: 26644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6838913bf563ef01e2a57d6e57b820
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:54)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:28)
+	at com.orangeHRM.test.LoginPageTest.verifyInValidLoginTest(LoginPageTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:02 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:36:03 [TestNG-test-OrangeHRMTest-2] WARN  ActionDriver - Failed to apply the border to an elementElement with name: password
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e7d541272ecf228bf8bf51ce040f9d5, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.681CFC83122A828502D6894BB78335F5.d.48B256077EF961FDD07B7A7865618265.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61560}, goog:processID: 26976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61560/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e7d541272ecf228bf8bf51ce040f9d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:27)
+	at com.orangeHRM.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:04 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:36:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:36:04 [TestNG-test-OrangeHRMTest-2] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e7d541272ecf228bf8bf51ce040f9d5, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.681CFC83122A828502D6894BB78335F5.d.48B256077EF961FDD07B7A7865618265.e.6}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61560}, goog:processID: 26976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61560/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e7d541272ecf228bf8bf51ce040f9d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:54)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:28)
+	at com.orangeHRM.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:36:05 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-text oxd-text--p oxd-alert-content-text
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db6838913bf563ef01e2a57d6e57b820, executeScript {script=arguments[0].apply.border='3px solid red', args=[{element-6066-11e4-a52e-4f735466cecf=f.0C7F2B0D85009D7786B3DCD9618E3300.d.02B7BA39A1F91229DF2F5EE215E3DE50.e.39}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61561}, goog:processID: 26644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61561/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db6838913bf563ef01e2a57d6e57b820
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.compareText(ActionDriver.java:105)
+	at com.orangehrm.pages.LoginPage.verifyErrorMessage(LoginPage.java:43)
+	at com.orangeHRM.test.LoginPageTest.verifyInValidLoginTest(LoginPageTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:09 [TestNG-test-OrangeHRMTest-2] WARN  ActionDriver - Failed to apply the border to an elementElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e7d541272ecf228bf8bf51ce040f9d5, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.681CFC83122A828502D6894BB78335F5.d.2E163143342E5C661B8C6955E3BE8952.e.25}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61560}, goog:processID: 26976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61560/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e7d541272ecf228bf8bf51ce040f9d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.isDisplayed(ActionDriver.java:121)
+	at com.orangehrm.pages.HomePage.verifyOrangeHRMlogo(HomePage.java:37)
+	at com.orangeHRM.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:10 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-07 10:36:11 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:36:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:36:12 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:36:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:36:12 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:36:16 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-07 10:36:17 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:36:21 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-07 10:36:22 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with name: username
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.72162BC9204871B229D979753ED5E687.e.2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:26)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:23 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:36:24 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with name: password
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.72162BC9204871B229D979753ED5E687.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.enterText(ActionDriver.java:71)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:27)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:26 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:36:27 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.72162BC9204871B229D979753ED5E687.e.6}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:54)
+	at com.orangehrm.pages.LoginPage.login(LoginPage.java:28)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:27 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:36:29 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.4FB049556BA87922855AEF39D5F7D1A4.e.25}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.isDisplayed(ActionDriver.java:121)
+	at com.orangehrm.pages.HomePage.isAdminTabVisible(HomePage.java:33)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-07 10:36:31 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-userdropdown-name
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.4FB049556BA87922855AEF39D5F7D1A4.e.30}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:54)
+	at com.orangehrm.pages.HomePage.logout(HomePage.java:42)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-07 10:36:31 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Failed to apply the border to an elementElement with class: oxd-userdropdown-link
+org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba7de0a8bc652e607f3f5b55b9de9cb6, executeScript {script=arguments[0].apply.border='3px solid green', args=[{element-6066-11e4-a52e-4f735466cecf=f.08DEADF1A1A0E5C7E00B9FE63B8E4CDF.d.4FB049556BA87922855AEF39D5F7D1A4.e.33}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, goog:processID: 29924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7de0a8bc652e607f3f5b55b9de9cb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at com.orangehrm.actiondriver.ActionDriver.applyBorder(ActionDriver.java:219)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:54)
+	at com.orangehrm.pages.HomePage.logout(HomePage.java:43)
+	at com.orangeHRM.test.LoginPageTest.verifyValidLoginTest(LoginPageTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-03-07 10:36:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-07 10:36:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:36:54 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-07 10:36:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:36:57 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:36:57 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 30
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:37:01 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-07 10:37:06 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:37:06 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:37:07 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 29
+2026-03-07 10:37:08 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-07 10:37:08 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:37:08 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:37:08 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:08 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-07 10:37:09 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin1231
+2026-03-07 10:37:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:11 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:13 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-07 10:37:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:13 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:37:15 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-07 10:37:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:37:16 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-07 10:37:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 29
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> Admin
+2026-03-07 10:37:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-07 10:37:26 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-07 10:37:26 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-07 10:37:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-07 10:37:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-07 10:37:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-07 10:37:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-07 10:37:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-07 10:37:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-07 10:37:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
