@@ -3,6 +3,7 @@ package com.orangeHRM.test;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
@@ -14,6 +15,7 @@ public class LoginPageTest extends BaseClass {
 	private LoginPage loginPage;
 	private HomePage homePage;
 
+	
 	@BeforeMethod
 	public void setupPages() {
 		loginPage = new LoginPage(getDriver());
@@ -30,7 +32,6 @@ public class LoginPageTest extends BaseClass {
 		ExtentManager.logStep("Validation successfully");
 		homePage.logout();
 		ExtentManager.logStep("Logged out successfully");
-		staticWait(5);
 	}
 	
 	@Test(dataProvider="inValidLoginData",dataProviderClass=DataProviders.class)
@@ -44,5 +45,6 @@ public class LoginPageTest extends BaseClass {
 		homePage.logout();
 		ExtentManager.logStep("Logged out successfully");
 		staticWait(5);
+		
 	}
 }
