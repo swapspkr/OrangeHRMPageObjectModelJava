@@ -1,15 +1,26 @@
 package com.orangehrm.listener;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
+import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.ITestAnnotation;
 
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.utilities.ExtentManager;
+import com.orangehrm.utilities.RetryAnalyzer;
 
-public class TestListener implements ITestListener{
+public class TestListener implements ITestListener,IAnnotationTransformer{
 
 	
+	@Override
+	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+		annotation.setRetryAnalyzer(RetryAnalyzer.class);
+	}
+
 	// Trigger when test start
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -23,7 +34,13 @@ public class TestListener implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		String testName = result.getMethod().getMethodName();
-		ExtentManager.logStepWithScreenShot(BaseClass.getDriver(), "Test Passed Successfully !", "Test End: " + testName + " - ✅ Test Passed");
+
+		if (!result.getTestClass().getName().toLowerCase().contains("api")) {
+			ExtentManager.logStepWithScreenShot(BaseClass.getDriver(), "Test Passed Successfully!",
+					"Test End: " + testName + " - ✔ Test Passed");
+		} else {
+			ExtentManager.logStepValidationForAPI("Test End: " + testName + " - ✔ Test Passed");
+		}
 	}
 
 	// Trigger when test success
@@ -32,7 +49,12 @@ public class TestListener implements ITestListener{
 		String testName = result.getMethod().getMethodName();
 		String failureMessage = result.getThrowable().getMessage();
 		ExtentManager.logStep(failureMessage);
-		ExtentManager.logFailure(BaseClass.getDriver(), "Test Failed !", "Test End: " + testName + " - ❌ Red icon - Test Failed");
+		if(!result.getTestClass().getName().toLowerCase().contains("api")) {
+			ExtentManager.logFailure(BaseClass.getDriver(), "Test Failed!", "Test End: " + testName + " - ❌ Test Failed");
+		}
+		else {
+			ExtentManager.logFailureAPI("Test End: " + testName + " - ❌ Test Failed");
+		}
 	}
 
 	// Trigger when test skip

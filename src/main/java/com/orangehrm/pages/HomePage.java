@@ -24,7 +24,7 @@ public class HomePage {
 	private By emplLastName = By.xpath("//div[@class='oxd-table-card']/div/div[4]");
 
 	public HomePage(WebDriver driver) {
-		//this.actionDriver = new ActionDriver(driver);
+		// this.actionDriver = new ActionDriver(driver);
 		this.actionDriver = BaseClass.getActionDriver();
 	}
 
@@ -35,6 +35,29 @@ public class HomePage {
 
 	public boolean verifyOrangeHRMlogo() {
 		return actionDriver.isDisplayed(oranageHRMlogo);
+	}
+
+
+	public void clickPIM() {
+		actionDriver.click(pimTab);
+	}
+
+	// Employee Search
+	public void employeeSearch(String value) {
+		actionDriver.enterText(employeeSearch, value);
+		actionDriver.click(searchButton);
+		actionDriver.scrollToElement(emplFirstAndMiddleName);
+	}
+
+	// Verify employee first and middle name
+	public boolean verifyEmployeeFirstAndMiddleName(String emplFirstAndMiddleNameFromDB) {
+		actionDriver.waitForPageLoad(10);
+		return actionDriver.compareText(emplFirstAndMiddleName, emplFirstAndMiddleNameFromDB);
+	}
+
+	// Verify employee last name
+	public boolean verifyEmployeeLastName(String emplLastFromDB) {
+		return actionDriver.compareText(emplLastName, emplLastFromDB);
 	}
 
 	// Method to perform logout operation

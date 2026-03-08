@@ -79,7 +79,8 @@ public class ExtentManager {
 		String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 
 		// Saving screenshot to file
-		String destPath = System.getProperty("user.dir") + "/src/test/resources/screenshots/"+screenshotName+"_"+timeStamp+".png";
+		String destPath = System.getProperty("user.dir") + "/src/test/resources/screenshots/" + screenshotName + "_"
+				+ timeStamp + ".png";
 
 		File finalDest = new File(destPath);
 
@@ -108,16 +109,17 @@ public class ExtentManager {
 		return base64Format;
 	}
 
-	//Attach screenshot to report using Base64
-		public synchronized static void attachScreenshot(WebDriver driver, String message) {
-			try {
-				String screenShotBase64 = takeScreenshot(driver,getTestName());
-				getTest().info(message,com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(screenShotBase64).build());
-			} catch (Exception e) {
-				getTest().fail("Failed to attach screenshot:"+message);
-				e.printStackTrace();
-			}
+	// Attach screenshot to report using Base64
+	public synchronized static void attachScreenshot(WebDriver driver, String message) {
+		try {
+			String screenShotBase64 = takeScreenshot(driver, getTestName());
+			getTest().info(message, com.aventstack.extentreports.MediaEntityBuilder
+					.createScreenCaptureFromBase64String(screenShotBase64).build());
+		} catch (Exception e) {
+			getTest().fail("Failed to attach screenshot:" + message);
+			e.printStackTrace();
 		}
+	}
 
 	// log a step
 	public static void logStep(String logMessage) {
@@ -133,7 +135,7 @@ public class ExtentManager {
 
 	// log a Failure
 	public static void logFailure(WebDriver driver, String logMessage, String screenshotMessage) {
-		String colorMessage = String.format("<span style = 'color: red;'>%s</span>",logMessage);
+		String colorMessage = String.format("<span style = 'color: red;'>%s</span>", logMessage);
 		getTest().fail(colorMessage);
 		// screenshot method
 		attachScreenshot(driver, screenshotMessage);
@@ -141,13 +143,24 @@ public class ExtentManager {
 
 	// log skip
 	public static void logSkip(String logMessage) {
-		String colorMessage = String.format("<span style = 'color: orange;'>%s</span>",logMessage);
+		String colorMessage = String.format("<span style = 'color: orange;'>%s</span>", logMessage);
 		getTest().skip(colorMessage);
 	}
 
 	// Register webdriver for current thread
 	public static void RegisterDriver(WebDriver driver) {
 		driverMap.put(Thread.currentThread().getId(), driver);
+	}
+
+	// Log a step validation for API
+	public static void logStepValidationForAPI(String logMessage) {
+		getTest().pass(logMessage);
+	}
+
+	// Log a Failure for API
+	public static void logFailureAPI(String logMessage) {
+		String colorMessage = String.format("<span style='color:red;'>%s</span>", logMessage);
+		getTest().fail(colorMessage);
 	}
 
 }
