@@ -6,20 +6,25 @@
   </listeners>
   <test thread-count="3" parallel="classes" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="com.orangeHRM.test.DBVerificationTest">
+      <class name="com.orangeHRM.test.LoginPageTest">
         <methods>
+          <include name="verifyValidLoginTest" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
           <include name="setupPages"/>
-          <include name="verifyEmployeeNameVerificationFromDB" invocation-numbers="0"/>
+          <include name="verifyInValidLoginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.orangeHRM.test.DBVerificationTest -->
-      <class name="com.orangeHRM.test.ApiTest">
+      </class> <!-- com.orangeHRM.test.LoginPageTest -->
+      <class name="com.orangeHRM.test.HomePageTest">
         <methods>
-          <include name="verifyGetUserAPI"/>
+          <include name="setup"/>
+          <include name="verifyOrangeHRMLogo" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setupPages"/>
+          <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.orangeHRM.test.ApiTest -->
+      </class> <!-- com.orangeHRM.test.HomePageTest -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->
