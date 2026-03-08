@@ -6,14 +6,13 @@
 
 	<test name="OrangeHRMTest">
 		<classes>
-<!--			<class name="com.orangeHRM.test.LoginPageTest"></class>
+			<class name="com.orangeHRM.test.LoginPageTest"></class>
 			<class name="com.orangeHRM.test.HomePageTest"></class>
 			<class name="com.orangeHRM.test.DummyClass"></class>
 			<class name="com.orangeHRM.test.DummyClass2"></class>-->
 			<class name="com.orangeHRM.test.DBVerificationTest"></class>
 			<class name="com.orangeHRM.test.ApiTest"></class>
 		</classes>
-
 	</test>
 
 	<!--	<test name="OrangeHRM_DBValidationTest">
