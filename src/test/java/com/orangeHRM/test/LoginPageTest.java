@@ -37,14 +37,11 @@ public class LoginPageTest extends BaseClass {
 	@Test(dataProvider="inValidLoginData",dataProviderClass=DataProviders.class)
 	public void verifyInValidLoginTest(String username,String password) {
 		//ExtentManager.startTest("Invalid Login Test"); -- This has been implemented in TestListener
-		loginPage.login(username,password);
-		ExtentManager.logStep("Navigating to login page entering username and password");	
-		String errorMsg = " Invalid Credentials1"; 
-		Assert.assertTrue(loginPage.verifyErrorMessage(errorMsg));
-		ExtentManager.logStep("Validation successfully");
-		homePage.logout();
-		ExtentManager.logStep("Logged out successfully");
-		staticWait(5);
-		
+		System.out.println("Running testMethod2 on thread: " + Thread.currentThread().getId());
+		ExtentManager.logStep("Navigating to Login Page entering username and password");
+		loginPage.login(username, password);
+		String expectedErrorMessage = "Invalid credentials";
+		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: Invalid error message");
+		ExtentManager.logStep("Validation Successful");	
 	}
 }

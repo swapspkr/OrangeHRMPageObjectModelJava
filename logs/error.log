@@ -2869,3 +2869,80 @@ Session ID: cb479d6be515654105e3fb66a355e33b
 2026-03-09 00:23:35 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
 2026-03-09 00:23:37 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
 2026-03-09 00:23:42 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:35:56 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:36:04 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:36:12 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials ,  Invalid Credentials1
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:37:34 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials , Invalid Credentials
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:37:43 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials , Invalid Credentials
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:37:49 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - Text are not matching :Invalid credentials , Invalid Credentials
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Unable to describe element due to error: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [429dd05995ff6463e3827cff65af7304, getElementDomAttribute {name=id, id=f.F8879F7B7EAEEBEA828E2FF8886F94F9.d.BC4D38E00DDFC4AD84CCE80E34E84E27.e.1009}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\swaps\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62678}, goog:processID: 25940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62678/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (429dd05995ff6463e3827cff65af7304)] -> xpath: //div[@class='oxd-table-card']/div/div[4]]
+Session ID: 429dd05995ff6463e3827cff65af7304
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :hverma , Supekar
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :hverma , Supekar
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :hverma , Supekar
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :orangehrm , Swapnil
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :hverma , Supekar
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:47:38 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :Swapnil , null
+2026-03-09 00:47:38 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Unable to compare text : Cannot invoke "String.equals(Object)" because "expectedText" is null
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :Swapnil , null
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Unable to compare text : Cannot invoke "String.equals(Object)" because "expectedText" is null
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Text are not matching :Swapnil , null
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] ERROR ActionDriver - Unable to compare text : Cannot invoke "String.equals(Object)" because "expectedText" is null
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is Error message
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is Error message
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is Error message

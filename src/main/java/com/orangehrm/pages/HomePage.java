@@ -38,7 +38,7 @@ public class HomePage {
 	}
 
 
-	public void clickPIM() {
+	public void clickOnPIMTab() {
 		actionDriver.click(pimTab);
 	}
 
@@ -51,7 +51,7 @@ public class HomePage {
 
 	// Verify employee first and middle name
 	public boolean verifyEmployeeFirstAndMiddleName(String emplFirstAndMiddleNameFromDB) {
-		actionDriver.waitForPageLoad(10);
+		actionDriver.waitForPageLoad(20);
 		return actionDriver.compareText(emplFirstAndMiddleName, emplFirstAndMiddleNameFromDB);
 	}
 

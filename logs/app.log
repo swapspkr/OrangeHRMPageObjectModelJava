@@ -8819,3 +8819,795 @@ Session ID: cb479d6be515654105e3fb66a355e33b
 2026-03-09 00:23:46 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
 2026-03-09 00:23:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
 2026-03-09 00:23:49 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:35:46 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:35:49 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:35:49 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:35:49 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:35:53 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 34
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:56 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:35:56 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:35:56 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:35:57 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:35:57 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:35:57 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:35:57 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:35:59 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:36:00 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:36:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:36:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:36:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:36:02 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:36:03 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Swapnil equals Swapnil
+2026-03-09 00:36:04 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:36:04 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Supekar equals Supekar
+2026-03-09 00:36:04 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:36:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:36:05 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:36:06 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:36:09 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:10 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:12 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:36:13 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:36:13 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:36:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:36:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:36:20 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:36:20 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:36:20 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:36:20 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:36:21 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:36:23 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:36:23 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:25 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:37:28 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:28 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:28 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:37:31 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:37:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:33 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:33 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:34 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:37:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:37:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:37:35 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:37:35 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:36 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:36 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:38 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:37:39 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:37:39 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:37:39 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:37:39 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:37:40 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Swapnil equals Swapnil
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:37:41 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Supekar equals Supekar
+2026-03-09 00:37:42 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:43 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:37:43 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:44 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:47 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:37:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:37:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:37:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:37:50 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:37:51 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:37:54 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:37:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:37:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:37:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:37:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:37:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:38:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:38:01 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:38:45 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:38:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:38:48 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:38:48 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2026-03-09 00:38:51 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:38:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Text are matching :Invalid credentials equals Invalid credentials
+2026-03-09 00:38:54 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:54 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:38:55 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:38:55 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:38:55 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:38:55 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:38:56 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:38:57 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:38:58 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:38:59 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:38:59 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:38:59 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:38:59 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:39:00 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Swapnil equals Swapnil
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:39:01 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - Text are matching :Supekar equals Supekar
+2026-03-09 00:39:02 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:39:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:39:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:39:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:39:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:39:07 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:39:07 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:42 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:39:44 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:44 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:44 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:49 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:50 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:51 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:39:51 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching :Invalid credentials equals Invalid credentials
+2026-03-09 00:39:52 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:39:52 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:39:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:53 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:39:54 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:39:54 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:39:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:39:58 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:39:59 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:40:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:01 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:40:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:40:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:40:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:40:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:40:04 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:04 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:40:05 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Unable to describe element due to error: 
+2026-03-09 00:40:06 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:40:07 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:40:11 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:40:12 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:40:12 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:40:14 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:40:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:40:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:18 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:19 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:40:19 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:40:23 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:40:24 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:40:24 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:40:24 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:40:24 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:40:26 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:40:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:40:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:40:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:30 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:40:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Text are matching :Supekar equals Supekar
+2026-03-09 00:40:32 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:43:41 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:43:44 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:44 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:44 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:47 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:43:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:51 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:43:51 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Text are matching :Invalid credentials equals Invalid credentials
+2026-03-09 00:43:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:43:52 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:43:52 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 33
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:43:53 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:43:54 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:56 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 31
+2026-03-09 00:43:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:43:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:43:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:43:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:43:58 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:43:59 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:43:59 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:43:59 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:44:00 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:00 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:44:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:44:01 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:44:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:44:03 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:44:04 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:05 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Text are matching :Supekar equals Supekar
+2026-03-09 00:44:07 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:44:07 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:44:11 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:44:12 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:44:12 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:44:12 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:44:14 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:17 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:44:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:44:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:21 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:44:22 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 32
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:44:26 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:44:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:44:32 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:33 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:44:35 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:11 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:47:13 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:13 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:13 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:18 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:19 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:21 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:47:21 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Text are matching :Invalid credentials equals Invalid credentials
+2026-03-09 00:47:21 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:22 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:47:22 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:22 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 37
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:23 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:24 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:26 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:47:27 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:27 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:47:27 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:47:28 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:29 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:30 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:30 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:30 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:47:31 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:47:31 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:47:31 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:33 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:47:33 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:34 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:47:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:47:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:47:35 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:47:36 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:37 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:47:37 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:47:37 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:47:37 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:47:37 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:47:38 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:38 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:38 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:39 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:42 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:43 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:45 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:48 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:47:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:47:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:47:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:47:49 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:47:50 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:47:51 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:47:52 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:56 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:47:58 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:48:01 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:48:01 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with placeholder: Type for hints...
+2026-03-09 00:48:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...--> Swapnil
+2026-03-09 00:48:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:48:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2026-03-09 00:48:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Starting DB Connection...
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - DB Connection Successful
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Query Executed Successfully
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  DBConnection - Employee Data Fetched: {firstname=Swapnil, middleName=, lastname=Supekar}
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Page loaded successfully.
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:48:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorredto element :Element with class: oxd-table-cell oxd-padding-cell
+2026-03-09 00:48:04 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:48:56 [main] INFO  BaseClass - config.Properties file loaded
+2026-03-09 00:48:58 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:48:58 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:48:58 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] TRACE BaseClass - This is trace message 
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] DEBUG BaseClass - This is debug message
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - ActionDriver initlialized for thread: 35
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 34
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:49:02 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> admin1
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> admin123
+2026-03-09 00:49:03 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:49:04 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:04 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:04 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:05 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--p oxd-alert-content-text
+2026-03-09 00:49:05 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Text are matching :Invalid credentials equals Invalid credentials
+2026-03-09 00:49:06 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:49:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Applied the border with colorgreento element :Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:49:06 [TestNG-test=OrangeHRMTest-2] INFO  ActionDriver - Element is displayedElement located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Chrome instance is initialized
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] TRACE BaseClass - This is trace message 
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] DEBUG BaseClass - This is debug message
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - ActionDriver initlialized for thread: 36
+2026-03-09 00:49:07 [TestNG-test=OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:49:08 [TestNG-test=OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is closed
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver initialised and browser maximised
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is trace message 
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is debug message
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance created
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ActionDriver initlialized for thread: 34
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: username
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username--> orangehrm_hverma
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with name: password
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password--> Passw0rd@7654321
+2026-03-09 00:49:11 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:12 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-button oxd-button--medium oxd-button--main orangehrm-login-button
+2026-03-09 00:49:14 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:49:14 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Element is displayedElement with class: oxd-text oxd-text--span oxd-main-menu-item--name
+2026-03-09 00:49:14 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-name
+2026-03-09 00:49:14 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-name
+2026-03-09 00:49:15 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with colorgreento element :Element with class: oxd-userdropdown-link
+2026-03-09 00:49:17 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Clicked an element.Element with class: oxd-userdropdown-link
+2026-03-09 00:49:17 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
