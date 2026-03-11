@@ -4,27 +4,17 @@
   <listeners>
     <listener class-name="com.orangehrm.listener.TestListener"/>
   </listeners>
-  <test thread-count="3" parallel="classes" name="OrangeHRMTest_chrome(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="3" parallel="classes" name="OrangeHRMTest_edge(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.orangeHRM.test.HomePageTest">
-        <methods>
-          <include name="verifyOrangeHRMLogo" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="setupPages"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- com.orangeHRM.test.HomePageTest -->
-      <class name="com.orangeHRM.test.LoginPageTest">
+      <class name="com.orangeHRM.test.DummyClass">
         <methods>
           <include name="setup"/>
-          <include name="verifyValidLoginTest" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="setupPages"/>
+          <include name="verifyPageTitle"/>
         </methods>
-      </class> <!-- com.orangeHRM.test.LoginPageTest -->
+      </class> <!-- com.orangeHRM.test.DummyClass -->
     </classes>
-  </test> <!-- OrangeHRMTest_chrome(failed) -->
+  </test> <!-- OrangeHRMTest_edge(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->

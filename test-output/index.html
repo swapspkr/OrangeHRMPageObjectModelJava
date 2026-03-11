@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-OrangeHRMSuite" class="navigator-link">
-              <span class="suite-name border-passed">OrangeHRMSuite</span>
+              <span class="suite-name border-skipped">OrangeHRMSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-OrangeHRMSuite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">9 methods,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-OrangeHRMSuite" class="hide-methods skipped suite-OrangeHRMSuite"> (hide)</a> <!-- hide-methods skipped suite-OrangeHRMSuite -->
+                      <a href="#" panel-name="suite-OrangeHRMSuite" class="show-methods skipped suite-OrangeHRMSuite"> (show)</a> <!-- show-methods skipped suite-OrangeHRMSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-OrangeHRMSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.DummyClass" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-OrangeHRMSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,7 +127,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.LoginPageTest" class="method navigator-link" hash-for-method="verifyInValidLoginTest(admin1, admin123)">verifyInValidLoginTest(admin1, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.HomePageTest" class="method navigator-link" hash-for-method="verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)">verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.HomePageTest" class="method navigator-link" hash-for-method="verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)">verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.DummyClass2" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRMSuite" title="com.orangeHRM.test.LoginPageTest" class="method navigator-link" hash-for-method="verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321)">verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,12 +167,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-OrangeHRMSuite" class="panel OrangeHRMSuite">
+          <div class="suite-OrangeHRMSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.orangeHRM.test.DummyClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as part of Test.
+	at com.orangeHRM.test.DummyClass.verifyPageTitle(DummyClass.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-skipped -->
           <div class="suite-OrangeHRMSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.orangeHRM.test.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)">
+                  </a> <!-- verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321) -->
+                  <span class="method-name">verifyOrangeHRMLogo</span>
+                  <span class="parameters">(orangehrm_hverma,Passw0rd@7654321)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)">
@@ -167,6 +233,21 @@
           <div class="suite-OrangeHRMSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.orangeHRM.test.DummyClass2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMSuite-class-passed -->
+          <div class="suite-OrangeHRMSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.orangeHRM.test.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -176,6 +257,22 @@
                   </a> <!-- verifyInValidLoginTest(admin1, admin123) -->
                   <span class="method-name">verifyInValidLoginTest</span>
                   <span class="parameters">(admin1,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInValidLoginTest(admin1, admin123)">
+                  </a> <!-- verifyInValidLoginTest(admin1, admin123) -->
+                  <span class="method-name">verifyInValidLoginTest</span>
+                  <span class="parameters">(admin1,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321)">
+                  </a> <!-- verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321) -->
+                  <span class="method-name">verifyValidLoginTest</span>
+                  <span class="parameters">(orangehrm_hverma,Passw0rd@7654321)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -209,6 +306,20 @@
       &lt;class name=&quot;com.orangeHRM.test.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OrangeHRMTest_chrome --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;OrangeHRMTest_edge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangeHRM.test.DummyClass&quot;/&gt;
+      &lt;class name=&quot;com.orangeHRM.test.DummyClass2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OrangeHRMTest_edge --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;OrangeHRMTest_firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangeHRM.test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.orangeHRM.test.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OrangeHRMTest_firefox --&gt;
 &lt;/suite&gt; &lt;!-- OrangeHRMSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,6 +332,12 @@
             <ul>
               <li>
                 <span class="test-name">OrangeHRMTest_chrome (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">OrangeHRMTest_edge (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">OrangeHRMTest_firefox (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,28 +363,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyGetUserAPI')
-data.setCell(0, 2, 'com.orangeHRM.test.ApiTest')
-data.setCell(0, 3, 7648);
+data.setCell(0, 1, 'verifyValidLoginTest')
+data.setCell(0, 2, 'com.orangeHRM.test.LoginPageTest')
+data.setCell(0, 3, 8149);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyValidLoginTest')
 data.setCell(1, 2, 'com.orangeHRM.test.LoginPageTest')
-data.setCell(1, 3, 7090);
+data.setCell(1, 3, 7282);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyOrangeHRMLogo')
-data.setCell(2, 2, 'com.orangeHRM.test.HomePageTest')
-data.setCell(2, 3, 4467);
+data.setCell(2, 1, 'verifyGetUserAPI')
+data.setCell(2, 2, 'com.orangeHRM.test.ApiTest')
+data.setCell(2, 3, 6120);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyInValidLoginTest')
-data.setCell(3, 2, 'com.orangeHRM.test.LoginPageTest')
-data.setCell(3, 3, 3368);
+data.setCell(3, 1, 'verifyOrangeHRMLogo')
+data.setCell(3, 2, 'com.orangeHRM.test.HomePageTest')
+data.setCell(3, 3, 5203);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyOrangeHRMLogo')
+data.setCell(4, 2, 'com.orangeHRM.test.HomePageTest')
+data.setCell(4, 3, 4150);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyInValidLoginTest')
+data.setCell(5, 2, 'com.orangeHRM.test.LoginPageTest')
+data.setCell(5, 3, 3749);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyInValidLoginTest')
+data.setCell(6, 2, 'com.orangeHRM.test.LoginPageTest')
+data.setCell(6, 3, 2918);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyPageTitle')
+data.setCell(7, 2, 'com.orangeHRM.test.DummyClass2')
+data.setCell(7, 3, 31);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyPageTitle')
+data.setCell(8, 2, 'com.orangeHRM.test.DummyClass')
+data.setCell(8, 3, 31);
 window.suiteTableData['OrangeHRMSuite']= { tableData: data, tableDiv: 'times-div-OrangeHRMSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-OrangeHRMSuite">
               </div> <!-- times-div-OrangeHRMSuite -->
             </div> <!-- times-div -->
@@ -282,11 +419,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-OrangeHRMSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.orangeHRM.test.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">loadConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.orangeHRM.test.DummyClass2</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">loadConfig</span>
                 <br/>
@@ -310,67 +456,178 @@ return data;
               <div class="chronological-class-name">com.orangeHRM.test.ApiTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyGetUserAPI</span>
-                <span class="method-start">260 ms</span>
+                <span class="method-start">283 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">1240 ms</span>
+                <span class="method-start">1603 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">1240 ms</span>
+                <span class="method-start">1603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">9257 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupPages</span>
-                <span class="method-start">8480 ms</span>
+                <span class="method-start">9257 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)</span>
-                <span class="method-start">8491 ms</span>
+                <span class="method-start">9267 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidLoginTest(admin1, admin123)</span>
+                <span class="method-start">9267 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13225 ms</span>
+                <span class="method-start">13243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">13887 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14719 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupPages</span>
-                <span class="method-start">20718 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyInValidLoginTest(admin1, admin123)</span>
-                <span class="method-start">20719 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24295 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">24599 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setupPages</span>
-                <span class="method-start">29097 ms</span>
+                <span class="method-start">18563 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321)</span>
-                <span class="method-start">29098 ms</span>
+                <span class="method-start">18564 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36349 ms</span>
+                <span class="method-start">26913 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.DummyClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">29570 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.DummyClass2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">29571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">38513 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.DummyClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">38513 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.DummyClass2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.DummyClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">40659 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">40660 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">46830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOrangeHRMLogo(orangehrm_hverma, Passw0rd@7654321)</span>
+                <span class="method-start">46831 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">47111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInValidLoginTest(admin1, admin123)</span>
+                <span class="method-start">47112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50096 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">51632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupPages</span>
+                <span class="method-start">57449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLoginTest(orangehrm_hverma, Passw0rd@7654321)</span>
+                <span class="method-start">57450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64791 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
