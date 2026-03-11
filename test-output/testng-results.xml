@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="0" skipped="1">
+<testng-results ignored="0" total="9" passed="7" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T23:44:11 IST" name="OrangeHRMSuite" finished-at="2026-03-10T23:45:18 IST" duration-ms="66322">
+  <suite started-at="2026-03-11T14:37:25 IST" name="OrangeHRMSuite" finished-at="2026-03-11T14:38:40 IST" duration-ms="75256">
     <groups>
     </groups>
-    <test started-at="2026-03-10T23:44:11 IST" name="OrangeHRMTest_chrome" finished-at="2026-03-10T23:44:40 IST" duration-ms="28676">
+    <test started-at="2026-03-11T14:37:25 IST" name="OrangeHRMTest_chrome" finished-at="2026-03-11T14:37:58 IST" duration-ms="33729">
       <class name="com.orangeHRM.test.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@5ef6ae06]" started-at="2026-03-10T23:44:13 IST" name="setup" finished-at="2026-03-10T23:44:21 IST" duration-ms="7652" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@55dfebeb]" started-at="2026-03-11T14:37:26 IST" name="setup" finished-at="2026-03-11T14:37:37 IST" duration-ms="11105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.HomePageTest@5ef6ae06]" started-at="2026-03-10T23:44:21 IST" name="setupPages" finished-at="2026-03-10T23:44:21 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.HomePageTest@55dfebeb]" started-at="2026-03-11T14:37:37 IST" name="setupPages" finished-at="2026-03-11T14:37:37 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@5ef6ae06]" started-at="2026-03-10T23:44:21 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-03-10T23:44:26 IST" duration-ms="5203" status="PASS">
+        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@55dfebeb]" started-at="2026-03-11T14:37:37 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-03-11T14:37:41 IST" duration-ms="4085" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[orangehrm_hverma]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Passw0rd@7654321]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrangeHRMLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.HomePageTest@5ef6ae06]" started-at="2026-03-10T23:44:26 IST" name="tearDown" finished-at="2026-03-10T23:44:26 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.HomePageTest@55dfebeb]" started-at="2026-03-11T14:37:41 IST" name="tearDown" finished-at="2026-03-11T14:37:43 IST" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.test.HomePageTest -->
       <class name="com.orangeHRM.test.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:13 IST" name="setup" finished-at="2026-03-10T23:44:21 IST" duration-ms="7652" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:26 IST" name="setup" finished-at="2026-03-11T14:37:37 IST" duration-ms="11459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:21 IST" name="setupPages" finished-at="2026-03-10T23:44:21 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:37 IST" name="setupPages" finished-at="2026-03-11T14:37:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyInValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:21 IST" name="verifyInValidLoginTest" data-provider="inValidLoginData" finished-at="2026-03-10T23:44:24 IST" duration-ms="3749" status="PASS">
+        <test-method signature="verifyInValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:37 IST" name="verifyInValidLoginTest" data-provider="inValidLoginData" finished-at="2026-03-11T14:37:41 IST" duration-ms="3338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:25 IST" name="tearDown" finished-at="2026-03-10T23:44:25 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:41 IST" name="tearDown" finished-at="2026-03-11T14:37:41 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:25 IST" name="setup" finished-at="2026-03-10T23:44:30 IST" duration-ms="4676" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:41 IST" name="setup" finished-at="2026-03-11T14:37:51 IST" duration-ms="9856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,41 +90,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:30 IST" name="setupPages" finished-at="2026-03-10T23:44:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:51 IST" name="setupPages" finished-at="2026-03-11T14:37:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:30 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2026-03-10T23:44:38 IST" duration-ms="8149" status="PASS">
+        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:51 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2026-03-11T14:37:58 IST" duration-ms="6684" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[orangehrm_hverma]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Passw0rd@7654321]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-10T23:44:38 IST" name="tearDown" finished-at="2026-03-10T23:44:40 IST" duration-ms="1787" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@37c7595]" started-at="2026-03-11T14:37:58 IST" name="tearDown" finished-at="2026-03-11T14:37:58 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.test.LoginPageTest -->
       <class name="com.orangeHRM.test.ApiTest">
-        <test-method signature="verifyGetUserAPI()[pri:0, instance:com.orangeHRM.test.ApiTest@ba2f4ec]" started-at="2026-03-10T23:44:12 IST" name="verifyGetUserAPI" finished-at="2026-03-10T23:44:18 IST" duration-ms="6120" status="PASS">
+        <test-method signature="verifyGetUserAPI()[pri:0, instance:com.orangeHRM.test.ApiTest@ba2f4ec]" started-at="2026-03-11T14:37:25 IST" name="verifyGetUserAPI" finished-at="2026-03-11T14:37:29 IST" duration-ms="4620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetUserAPI -->
       </class> <!-- com.orangeHRM.test.ApiTest -->
     </test> <!-- OrangeHRMTest_chrome -->
-    <test started-at="2026-03-10T23:44:41 IST" name="OrangeHRMTest_edge" finished-at="2026-03-10T23:44:52 IST" duration-ms="11017">
+    <test started-at="2026-03-11T14:37:59 IST" name="OrangeHRMTest_edge" finished-at="2026-03-11T14:37:59 IST" duration-ms="432">
       <class name="com.orangeHRM.test.DummyClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-10T23:44:41 IST" name="setup" finished-at="2026-03-10T23:44:50 IST" duration-ms="8943" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-11T14:37:59 IST" name="setup" finished-at="2026-03-11T14:37:59 IST" duration-ms="414" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -132,23 +132,30 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-10T23:44:50 IST" name="verifyPageTitle" finished-at="2026-03-10T23:44:50 IST" duration-ms="31" status="SKIP">
-          <exception class="org.testng.SkipException">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
             <message>
-              <![CDATA[Skipping the test as part of Test.]]>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping the test as part of Test.
-at com.orangeHRM.test.DummyClass.verifyPageTitle(DummyClass.java:21)
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1421)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at com.orangehrm.base.BaseClass.launchBrowser(BaseClass.java:151)
+at com.orangehrm.base.BaseClass.setup(BaseClass.java:65)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -161,19 +168,130 @@ at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:2
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+... 28 more
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+... 32 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-11T14:37:59 IST" name="verifyPageTitle" finished-at="2026-03-11T14:37:59 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1421)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at com.orangehrm.base.BaseClass.launchBrowser(BaseClass.java:151)
+at com.orangehrm.base.BaseClass.setup(BaseClass.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+... 28 more
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-10T23:44:50 IST" name="tearDown" finished-at="2026-03-10T23:44:52 IST" duration-ms="1953" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass@59252cb6]" started-at="2026-03-11T14:37:59 IST" name="tearDown" finished-at="2026-03-11T14:37:59 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.test.DummyClass -->
       <class name="com.orangeHRM.test.DummyClass2">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-10T23:44:41 IST" name="setup" finished-at="2026-03-10T23:44:50 IST" duration-ms="8942" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-11T14:37:59 IST" name="setup" finished-at="2026-03-11T14:37:59 IST" duration-ms="415" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -181,22 +299,168 @@ at java.base/java.lang.Thread.run(Thread.java:842)
               </value>
             </param>
           </params>
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1421)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at com.orangehrm.base.BaseClass.launchBrowser(BaseClass.java:151)
+at com.orangehrm.base.BaseClass.setup(BaseClass.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+... 28 more
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-10T23:44:50 IST" name="verifyPageTitle" finished-at="2026-03-10T23:44:50 IST" duration-ms="31" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-11T14:37:59 IST" name="verifyPageTitle" finished-at="2026-03-11T14:37:59 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1421)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1437)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1415)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1190)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:427)
+at com.orangehrm.base.BaseClass.launchBrowser(BaseClass.java:151)
+at com.orangehrm.base.BaseClass.setup(BaseClass.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1588)
+at io.github.bonigarcia.wdm.managers.EdgeDriverManager.getDriverUrls(EdgeDriverManager.java:115)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1442)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1268)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1184)
+... 28 more
+Caused by: java.net.UnknownHostException: msedgedriver.azureedge.net
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1573)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-10T23:44:50 IST" name="tearDown" finished-at="2026-03-10T23:44:52 IST" duration-ms="1953" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.DummyClass2@31d0e481]" started-at="2026-03-11T14:37:59 IST" name="tearDown" finished-at="2026-03-11T14:37:59 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.test.DummyClass2 -->
     </test> <!-- OrangeHRMTest_edge -->
-    <test started-at="2026-03-10T23:44:52 IST" name="OrangeHRMTest_firefox" finished-at="2026-03-10T23:45:18 IST" duration-ms="25719">
+    <test started-at="2026-03-11T14:37:59 IST" name="OrangeHRMTest_firefox" finished-at="2026-03-11T14:38:40 IST" duration-ms="40590">
       <class name="com.orangeHRM.test.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-10T23:44:52 IST" name="setup" finished-at="2026-03-10T23:44:58 IST" duration-ms="6171" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-11T14:37:59 IST" name="setup" finished-at="2026-03-11T14:38:15 IST" duration-ms="15426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,37 +471,37 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-10T23:44:58 IST" name="setupPages" finished-at="2026-03-10T23:44:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-11T14:38:15 IST" name="setupPages" finished-at="2026-03-11T14:38:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-10T23:44:58 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-03-10T23:45:02 IST" duration-ms="4150" status="PASS">
+        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-11T14:38:15 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-03-11T14:38:18 IST" duration-ms="3258" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[orangehrm_hverma]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Passw0rd@7654321]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrangeHRMLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-10T23:45:02 IST" name="tearDown" finished-at="2026-03-10T23:45:04 IST" duration-ms="1331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.HomePageTest@542e560f]" started-at="2026-03-11T14:38:18 IST" name="tearDown" finished-at="2026-03-11T14:38:20 IST" duration-ms="1688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.test.HomePageTest -->
       <class name="com.orangeHRM.test.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:44:11 IST" name="loadConfig" finished-at="2026-03-10T23:44:11 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:37:25 IST" name="loadConfig" finished-at="2026-03-11T14:37:25 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:44:52 IST" name="setup" finished-at="2026-03-10T23:44:58 IST" duration-ms="6450" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:37:59 IST" name="setup" finished-at="2026-03-11T14:38:16 IST" duration-ms="16249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,11 +512,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:44:58 IST" name="setupPages" finished-at="2026-03-10T23:44:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:16 IST" name="setupPages" finished-at="2026-03-11T14:38:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyInValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:44:58 IST" name="verifyInValidLoginTest" data-provider="inValidLoginData" finished-at="2026-03-10T23:45:01 IST" duration-ms="2918" status="PASS">
+        <test-method signature="verifyInValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:16 IST" name="verifyInValidLoginTest" data-provider="inValidLoginData" finished-at="2026-03-11T14:38:18 IST" duration-ms="2751" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,11 +532,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:45:01 IST" name="tearDown" finished-at="2026-03-10T23:45:03 IST" duration-ms="1511" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:18 IST" name="tearDown" finished-at="2026-03-11T14:38:20 IST" duration-ms="1491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:45:03 IST" name="setup" finished-at="2026-03-10T23:45:09 IST" duration-ms="5817" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:20 IST" name="setup" finished-at="2026-03-11T14:38:32 IST" duration-ms="11744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,27 +547,27 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:45:09 IST" name="setupPages" finished-at="2026-03-10T23:45:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:32 IST" name="setupPages" finished-at="2026-03-11T14:38:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:45:09 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2026-03-10T23:45:16 IST" duration-ms="7282" status="PASS">
+        <test-method signature="verifyValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:32 IST" name="verifyValidLoginTest" data-provider="validLoginData" finished-at="2026-03-11T14:38:38 IST" duration-ms="6428" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[orangehrm_hverma]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Passw0rd@7654321]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-10T23:45:16 IST" name="tearDown" finished-at="2026-03-10T23:45:18 IST" duration-ms="1555" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.LoginPageTest@241e8ea6]" started-at="2026-03-11T14:38:38 IST" name="tearDown" finished-at="2026-03-11T14:38:40 IST" duration-ms="1648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

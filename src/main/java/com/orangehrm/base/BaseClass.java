@@ -118,7 +118,7 @@ public class BaseClass {
 				WebDriverManager.chromedriver().setup();
 				// Create ChromeOptions
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless"); // Run Chrome in headless mode
+				//options.addArguments("--headless"); // Run Chrome in headless mode
 				options.addArguments("--disable-gpu"); // Disable GPU for headless mode
 				options.addArguments("--window-size=1920,1080"); // Set window size
 				options.addArguments("--disable-notifications"); // Disable browser notifications
@@ -134,7 +134,7 @@ public class BaseClass {
 				WebDriverManager.firefoxdriver().setup();
 				// Create FirefoxOptions
 				FirefoxOptions options = new FirefoxOptions();
-				options.addArguments("--headless"); // Run Firefox in headless mode
+				//options.addArguments("--headless"); // Run Firefox in headless mode
 				options.addArguments("--disable-gpu"); // Disable GPU rendering (useful for headless mode)
 				options.addArguments("--width=1920"); // Set browser width
 				options.addArguments("--height=1080"); // Set browser height
@@ -150,7 +150,7 @@ public class BaseClass {
 			} else if (browser.equalsIgnoreCase("edge")) {
 				WebDriverManager.edgedriver().setup();
 				EdgeOptions options = new EdgeOptions();
-				options.addArguments("--headless"); // Run Edge in headless mode
+				//options.addArguments("--headless"); // Run Edge in headless mode
 				options.addArguments("--disable-gpu"); // Disable GPU acceleration
 				options.addArguments("--window-size=1920,1080"); // Set window size
 				options.addArguments("--disable-notifications"); // Disable pop-up notifications
@@ -188,7 +188,7 @@ public class BaseClass {
 		if (seleniumGrid) {
 			getDriver().get(prop.getProperty("url_grid"));
 		} else {
-			getDriver().get(prop.getProperty("url_local"));
+			getDriver().get(prop.getProperty("url_base"));
 		}
 	}
 

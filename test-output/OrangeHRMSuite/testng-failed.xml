@@ -15,6 +15,14 @@
           <include name="verifyPageTitle"/>
         </methods>
       </class> <!-- com.orangeHRM.test.DummyClass -->
+      <class name="com.orangeHRM.test.DummyClass2">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- com.orangeHRM.test.DummyClass2 -->
     </classes>
   </test> <!-- OrangeHRMTest_edge(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->
